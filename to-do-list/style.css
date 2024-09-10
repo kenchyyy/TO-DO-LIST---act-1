@@ -78,3 +78,27 @@ ul li span {
 ul li span:hover{
   background:rgb(183, 238, 219);
 }
+ul li label.due{
+  position: absolute;
+  right: 60px;
+  top: 7px;
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+}
+.date{
+  position: relative;
+}
+select{
+  background-color: rgb(214, 213, 213);
+  border: none;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  position: relative;
+}

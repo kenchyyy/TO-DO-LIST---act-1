@@ -15,9 +15,17 @@
           TO-DO LIST
         </h1>
         <form class="input-field" id="submit">
-          <input type="text" placeholder="Add task" autocomplete="off" id="input">
+          <input required type="text" placeholder="Add task" autocomplete="off" id="input">
           <button type="submit" id="addTaskButton"> + </button>
+          <div class="date">
+            <input required type="date" id="date">
+          </div>
         </form>
+        <select name="options" id="options">
+          <option value="">Sort your Tasks</option>
+          <option value="1">Latest</option>
+          <option value="2">Oldest</option>
+        </select>
         <ul id="list">
         </ul>
       </div>
